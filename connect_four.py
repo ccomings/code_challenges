@@ -169,5 +169,6 @@ def start_game():
 
         if made_a_turn:
             player1, player2 = switch_current_player(player1, player2)
-    
+
+# to play, `python connect_four.py` in terminal in the same directory
 start_game()
